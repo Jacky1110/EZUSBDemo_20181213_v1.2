@@ -1,6 +1,6 @@
+com/example/ezusb/BuildConfig.java
+ com.example.ezusb.BuildConfig
 com/example/ezusb/MainActivity.java
  com.example.ezusb.MainActivity
  com.example.ezusb.MainActivity$1
  com.example.ezusb.MainActivity$2
-com/example/ezusb/BuildConfig.java
- com.example.ezusb.BuildConfig
