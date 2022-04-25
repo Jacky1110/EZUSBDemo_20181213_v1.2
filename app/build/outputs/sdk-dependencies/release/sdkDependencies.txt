@@ -1,0 +1,17 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.android.support"
+    artifactId: "support-v4"
+    version: "19.1.0"
+  }
+  digests {
+    sha256: "?@\372{:N\255\001\316\025\334\351E;\006\026F\347\376.|Q\313u\312\001\356\036w\003\177?"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+}

@@ -1,0 +1,54 @@
+com.example.ezusb.MainActivity
+com.example.ezusb.MainActivity: android.hardware.usb.UsbEndpoint epIn
+com.example.ezusb.MainActivity: android.widget.Button btsend
+com.example.ezusb.MainActivity: int slot
+com.example.ezusb.MainActivity: android.widget.TextView cardID
+com.example.ezusb.MainActivity: android.widget.TextView mResponseTextView
+com.example.ezusb.MainActivity: android.widget.TextView Name
+com.example.ezusb.MainActivity: android.view.View$OnClickListener btsendListener
+com.example.ezusb.MainActivity$2: com.example.ezusb.MainActivity this$0
+com.example.ezusb.MainActivity$1: com.example.ezusb.MainActivity this$0
+com.example.ezusb.MainActivity: android.hardware.usb.UsbDeviceConnection mDeviceConnection
+com.example.ezusb.MainActivity: android.hardware.usb.UsbDevice mUsbDevice
+com.example.ezusb.MainActivity: android.widget.Button btclear
+com.example.ezusb.MainActivity$2: int ret
+com.example.ezusb.MainActivity: android.hardware.usb.UsbManager manager
+com.example.ezusb.MainActivity: android.hardware.usb.UsbEndpoint epOut
+com.example.ezusb.MainActivity: android.widget.TextView Birthday
+com.example.ezusb.MainActivity: android.widget.TextView Sex
+com.example.ezusb.MainActivity: byte[] Receiveytes
+com.example.ezusb.MainActivity: android.hardware.usb.UsbInterface mInterface
+com.example.ezusb.MainActivity: int sequence
+com.example.ezusb.MainActivity: android.widget.TextView Identity
+com.example.ezusb.MainActivity: void logBuffer(byte[],int)
+com.example.ezusb.MainActivity: void access$1200(com.example.ezusb.MainActivity,byte[],int)
+com.example.ezusb.MainActivity: android.widget.TextView access$400(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: android.hardware.usb.UsbEndpoint access$1400(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: boolean access$600(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: void onCreate(android.os.Bundle)
+com.example.ezusb.MainActivity: void getEndpoint(android.hardware.usb.UsbDeviceConnection,android.hardware.usb.UsbInterface)
+com.example.ezusb.MainActivity: void DisplayToast(java.lang.CharSequence)
+com.example.ezusb.MainActivity: java.lang.String big5ToUnicode(java.lang.String)
+com.example.ezusb.MainActivity: void access$800(com.example.ezusb.MainActivity,java.lang.String)
+com.example.ezusb.MainActivity: android.widget.TextView access$500(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: void cmdPowerON()
+com.example.ezusb.MainActivity: android.hardware.usb.UsbEndpoint access$1100(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity$2: void onClick(android.view.View)
+com.example.ezusb.MainActivity: MainActivity()
+com.example.ezusb.MainActivity$2: MainActivity$2(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: android.hardware.usb.UsbDeviceConnection access$700(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: void logMsg(java.lang.String)
+com.example.ezusb.MainActivity: android.widget.TextView access$300(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: int access$900(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: int access$1000(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity$1: MainActivity$1(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity$1: void onClick(android.view.View)
+com.example.ezusb.MainActivity: android.widget.TextView access$100(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: byte[] access$1300(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: byte[] access$1302(com.example.ezusb.MainActivity,byte[])
+com.example.ezusb.MainActivity: android.widget.TextView access$000(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: boolean DetectionCard()
+com.example.ezusb.MainActivity: android.widget.TextView access$200(com.example.ezusb.MainActivity)
+com.example.ezusb.MainActivity: void cmdPowerOFF()
+com.example.ezusb.MainActivity: int access$1002(com.example.ezusb.MainActivity,int)
+com.example.ezusb.MainActivity: void findIntfAndEpt()

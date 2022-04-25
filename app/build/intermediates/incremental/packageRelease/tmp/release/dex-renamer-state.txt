@@ -1,0 +1,4 @@
+#Mon Apr 25 15:21:10 CST 2022
+base.0=/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

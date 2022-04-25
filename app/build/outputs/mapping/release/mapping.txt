@@ -1,0 +1,55 @@
+# compiler: R8
+# compiler_version: 2.2.66
+# min_api: 13
+# pg_map_id: e106616
+# common_typos_disable
+com.example.ezusb.MainActivity -> com.example.ezusb.MainActivity:
+    android.widget.TextView Sex -> o
+    android.widget.TextView Birthday -> n
+    android.hardware.usb.UsbDevice mUsbDevice -> f
+    android.hardware.usb.UsbInterface mInterface -> g
+    android.hardware.usb.UsbDeviceConnection mDeviceConnection -> h
+    android.hardware.usb.UsbEndpoint epIn -> r
+    android.hardware.usb.UsbEndpoint epOut -> q
+    int sequence -> b
+    int slot -> a
+    android.hardware.usb.UsbManager manager -> e
+    android.view.View$OnClickListener btsendListener -> p
+    android.widget.TextView mResponseTextView -> i
+    byte[] Receiveytes -> j
+    android.widget.TextView cardID -> k
+    android.widget.Button btclear -> d
+    android.widget.Button btsend -> c
+    android.widget.TextView Identity -> m
+    android.widget.TextView Name -> l
+    boolean DetectionCard() -> a
+    void DisplayToast(java.lang.CharSequence) -> b
+    android.widget.TextView access$000(com.example.ezusb.MainActivity) -> c
+    android.widget.TextView access$100(com.example.ezusb.MainActivity) -> d
+    int access$1000(com.example.ezusb.MainActivity) -> e
+    int access$1002(com.example.ezusb.MainActivity,int) -> f
+    android.hardware.usb.UsbEndpoint access$1100(com.example.ezusb.MainActivity) -> g
+    void access$1200(com.example.ezusb.MainActivity,byte[],int) -> h
+    byte[] access$1300(com.example.ezusb.MainActivity) -> i
+    byte[] access$1302(com.example.ezusb.MainActivity,byte[]) -> j
+    android.hardware.usb.UsbEndpoint access$1400(com.example.ezusb.MainActivity) -> k
+    android.widget.TextView access$200(com.example.ezusb.MainActivity) -> l
+    android.widget.TextView access$300(com.example.ezusb.MainActivity) -> m
+    android.widget.TextView access$400(com.example.ezusb.MainActivity) -> n
+    android.widget.TextView access$500(com.example.ezusb.MainActivity) -> o
+    boolean access$600(com.example.ezusb.MainActivity) -> p
+    android.hardware.usb.UsbDeviceConnection access$700(com.example.ezusb.MainActivity) -> q
+    void access$800(com.example.ezusb.MainActivity,java.lang.String) -> r
+    int access$900(com.example.ezusb.MainActivity) -> s
+    java.lang.String big5ToUnicode(java.lang.String) -> t
+    void cmdPowerOFF() -> u
+    void cmdPowerON() -> v
+    void findIntfAndEpt() -> w
+    void getEndpoint(android.hardware.usb.UsbDeviceConnection,android.hardware.usb.UsbInterface) -> x
+    void logBuffer(byte[],int) -> y
+    void logMsg(java.lang.String) -> z
+com.example.ezusb.MainActivity$1 -> com.example.ezusb.MainActivity$a:
+    com.example.ezusb.MainActivity this$0 -> a
+com.example.ezusb.MainActivity$2 -> com.example.ezusb.MainActivity$b:
+    com.example.ezusb.MainActivity this$0 -> b
+    int ret -> a
