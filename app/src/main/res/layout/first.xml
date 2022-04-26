@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/m1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A56F6">
+
+    <TextView
+        android:id="@+id/mtitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="心臟內科"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#CBF0F4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:background="#C2F1F5"
+        android:gravity="center"
+        android:text="醫 師"
+        android:textColor="#131010"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="60dp"
+        android:background="#C2F1F5"
+        android:gravity="center"
+        android:text="跟診人員"
+        android:textColor="#131010"
+        android:textSize="20dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:background="#FFFFFF" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="90dp"
+        android:background="#FFFFFF" />
+</FrameLayout>

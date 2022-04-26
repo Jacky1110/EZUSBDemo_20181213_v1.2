@@ -1,4 +1,4 @@
-#Mon Apr 25 15:17:46 CST 2022
+#Tue Apr 26 13:16:33 CST 2022
 base.0=/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
