@@ -5,69 +5,72 @@
 5    android:versionName="1.1" >
 6
 7    <uses-sdk
-7-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:8:5-10:41
 8        android:minSdkVersion="13"
-8-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:9:9-35
+8-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="19" />
-9-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:10:9-38
+9-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml
 10
-11    <uses-feature android:name="android.hardware.usb.host" />
-11-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:7:5-62
-11-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:7:19-59
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:7:5-66
+11-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:7:22-64
 12
-13    <application
-13-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:12:5-38:19
-14        android:allowBackup="true"
-14-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:13:9-35
-15        android:debuggable="true"
-16        android:icon="@drawable/ic_launcher"
-16-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:14:9-45
-17        android:label="@string/app_name"
-17-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:15:9-41
-18        android:testOnly="true"
-19        android:theme="@style/AppTheme" >
-19-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:16:9-40
-20        <activity
-20-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:17:9-37:20
-21            android:name="com.example.ezusb.MainActivity"
-21-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:18:13-58
-22            android:configChanges="keyboard|orientation"
-22-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:21:13-57
-23            android:label="@string/app_name"
-23-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:19:13-45
-24            android:screenOrientation="portrait" >
-24-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:20:13-49
-25            <intent-filter>
-25-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:22:13-25:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:23:17-69
-26-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:23:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:24:17-77
-28-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:24:27-74
-29            </intent-filter>
-30            <intent-filter>
-30-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:27:13-29:29
-31                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-31-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:28:17-90
-31-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:28:25-87
-32            </intent-filter>
-33
-34            <meta-data
-34-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:30:13-31:57
-35                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-35-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:30:24-86
-36                android:resource="@xml/device_filter" />
-36-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:31:17-54
-37
-38            <intent-filter>
-38-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:33:13-35:29
-39                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
-39-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:34:17-90
-39-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:34:25-87
-40            </intent-filter>
-41        </activity>
-42    </application>
-43
-44</manifest>
+13    <uses-feature android:name="android.hardware.usb.host" />
+13-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:8:5-62
+13-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:8:19-59
+14
+15    <application
+15-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:11:5-37:19
+16        android:allowBackup="true"
+16-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:12:9-35
+17        android:debuggable="true"
+18        android:icon="@drawable/ic_launcher"
+18-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:13:9-45
+19        android:label="@string/app_name"
+19-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:14:9-41
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:15:9-40
+22        <activity
+22-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:16:9-36:20
+23            android:name="com.example.ezusb.MainActivity"
+23-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:17:13-58
+24            android:configChanges="keyboard|orientation"
+24-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:20:13-57
+25            android:label="@string/app_name"
+25-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:18:13-45
+26            android:screenOrientation="portrait" >
+26-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:19:13-49
+27            <intent-filter>
+27-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:21:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:22:17-69
+28-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:22:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:23:17-77
+30-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32            <intent-filter>
+32-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:26:13-28:29
+33                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+33-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:27:17-90
+33-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:27:25-87
+34            </intent-filter>
+35
+36            <meta-data
+36-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:29:13-30:57
+37                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+37-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:29:24-86
+38                android:resource="@xml/device_filter" />
+38-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:30:17-54
+39
+40            <intent-filter>
+40-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:32:13-34:29
+41                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+41-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:33:17-90
+41-->/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/AndroidManifest.xml:33:25-87
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

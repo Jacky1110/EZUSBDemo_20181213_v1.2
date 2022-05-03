@@ -16,8 +16,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
         }
     }
+    lintOptions {
+        checkReleaseBuilds false
+    }
 }
 
 dependencies {
     compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.7.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.7.2'
 }

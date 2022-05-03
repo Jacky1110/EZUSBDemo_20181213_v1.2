@@ -136,8 +136,29 @@
 # End of content from /Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/proguard-project.txt
 # The proguard configuration file for the following section is /Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
 -keep class com.example.ezusb.MainActivity { <init>(); }
+-keep class android.support.v7.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
 
 # End of content from /Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
+# The proguard configuration file for the following section is /Users/dinghan/.gradle/caches/transforms-2/files-2.1/a67eb2b7137cf8ab6917eb87d80aace2/rules/lib/META-INF/proguard/okhttp3.pro
+# JSR 305 annotations are for embedding nullability information.
+-dontwarn javax.annotation.**
+
+# A resource is loaded with a relative path so the package of this class must be preserved.
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
+
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# OkHttp platform used only on JVM and when Conscrypt dependency is available.
+-dontwarn okhttp3.internal.platform.ConscryptPlatform
+
+# End of content from /Users/dinghan/.gradle/caches/transforms-2/files-2.1/a67eb2b7137cf8ab6917eb87d80aace2/rules/lib/META-INF/proguard/okhttp3.pro
+# The proguard configuration file for the following section is /Users/dinghan/.gradle/caches/transforms-2/files-2.1/a24eccb6a4514d84a3a6ce2c9c18737e/rules/lib/META-INF/proguard/okio.pro
+# Animal Sniffer compileOnly dependency to ensure APIs are compatible with older versions of Java.
+-dontwarn org.codehaus.mojo.animal_sniffer.*
+
+# End of content from /Users/dinghan/.gradle/caches/transforms-2/files-2.1/a24eccb6a4514d84a3a6ce2c9c18737e/rules/lib/META-INF/proguard/okio.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

@@ -28,6 +28,10 @@
         "source": "/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/res/layout/list_item.xml"
+    },
+    {
         "merged": "/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
         "source": "/Users/dinghan/Desktop/EZUSBDemo_20181213_v1.2/app/src/main/res/drawable-hdpi/ic_launcher.png"
     }

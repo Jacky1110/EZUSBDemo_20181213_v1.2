@@ -11,7 +11,114 @@ library {
     sha256: "?@\372{:N\255\001\316\025\334\351E;\006\026F\347\376.|Q\313u\312\001\356\036w\003\177?"
   }
 }
+library {
+  maven_library {
+    groupId: "com.google.code.gson"
+    artifactId: "gson"
+    version: "2.6.2"
+  }
+  digests {
+    sha256: "\270T[\247u\366A\370\273\250`\'\360c\a\025\"y\376\350\232F\244\000m\361\277/\207MM\235"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.okhttp3"
+    artifactId: "okhttp"
+    version: "4.7.2"
+  }
+  digests {
+    sha256: "kd\312\035 iu\022B\230E7\325\336,\276bz\340\000C\017Q\027\304}\214\263\322r\372\315"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.okio"
+    artifactId: "okio"
+    version: "2.6.0"
+  }
+  digests {
+    sha256: "M\204\357hbw\265\216\260V\221\254\031\315;\357\243B\232\'\'I\202\356e\352\017\a\004K\314\000"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains.kotlin"
+    artifactId: "kotlin-stdlib"
+    version: "1.3.71"
+  }
+  digests {
+    sha256: "Z\316\"\261\002\251d%\344\254D\340U\213\222\1778W\265j3\313\302\211\317\033p\256\346E\346\247"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains.kotlin"
+    artifactId: "kotlin-stdlib-common"
+    version: "1.3.71"
+  }
+  digests {
+    sha256: "\227O\212\233{\374\343\3270\250n\376\016\253!\232rb\036\2050\371\0360\310\237@\v\251\200\222\354"
+  }
+}
+library {
+  maven_library {
+    groupId: "org.jetbrains"
+    artifactId: "annotations"
+    version: "13.0"
+  }
+  digests {
+    sha256: "\254\342\241\r\310\342\325\3754\222^\312\300>I\210\262\300\370Qe\f\224\270\316\364\233\241\275\021\024x"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.okhttp3"
+    artifactId: "okhttp-urlconnection"
+    version: "4.7.2"
+  }
+  digests {
+    sha256: "\343\356\245\016\346\325\033\254\341\256\303\020\210\311\351\001\343D\v\261&\242\372\217\370L\002\324\017\033!\263"
+  }
+}
+library {
+  maven_library {
+    groupId: "com.squareup.okhttp3"
+    artifactId: "logging-interceptor"
+    version: "4.7.2"
+  }
+  digests {
+    sha256: "q\301\031I\271\340e3{><0\315{\335\3211\266<\366\231\340\274\216%\032\030kP\255\373\377"
+  }
+}
+library_dependencies {
+  library_index: 2
+  library_dep_index: 3
+  library_dep_index: 4
+}
+library_dependencies {
+  library_index: 3
+  library_dep_index: 4
+  library_dep_index: 5
+}
+library_dependencies {
+  library_index: 4
+  library_dep_index: 5
+  library_dep_index: 6
+}
+library_dependencies {
+  library_index: 7
+  library_dep_index: 2
+}
+library_dependencies {
+  library_index: 8
+  library_dep_index: 2
+}
 module_dependencies {
   module_name: "base"
   dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+  dependency_index: 7
+  dependency_index: 8
 }
